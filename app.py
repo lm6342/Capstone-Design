@@ -17,8 +17,8 @@ initial_prompt = [
 ]
 
 def translate_text(text, target_language="en"):
-    client_id = "QNEg9oO3Q1HvUoAcZMz2"
-    client_secret = "zxhkG0Dhwq"
+    client_id = "your key"
+    client_secret ="your key"
     url = "https://openapi.naver.com/v1/papago/n2mt"
 
     headers = {
